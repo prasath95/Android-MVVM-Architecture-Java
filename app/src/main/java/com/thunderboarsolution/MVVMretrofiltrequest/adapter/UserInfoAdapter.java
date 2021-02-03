@@ -38,7 +38,9 @@ public class UserInfoAdapter extends RecyclerView.Adapter<UserInfoAdapter.USerIn
 
     @Override
     public void onBindViewHolder(@NonNull USerInfoViewholder holder, int position) {
-        holder.textView.setText(""+list.get(position).getBody());
+        holder.tvbody.setText(""+list.get(position).getBody());
+        holder.tvid.setText(""+list.get(position).getId());
+        holder.tvtitle.setText(""+list.get(position).getBody());
     }
 
     @Override
@@ -51,12 +53,15 @@ public class UserInfoAdapter extends RecyclerView.Adapter<UserInfoAdapter.USerIn
     }
 
     public class USerInfoViewholder extends RecyclerView.ViewHolder {
-        private TextView textView;
+        private TextView tvbody,tvid,tvtitle;
 
         public USerInfoViewholder(@NonNull View itemView) {
             super(itemView);
 
-            textView=itemView.findViewById(R.id.textid);
+            tvbody=itemView.findViewById(R.id.textid);
+            tvid=itemView.findViewById(R.id.tvid);
+            tvtitle=itemView.findViewById(R.id.desciptionid);
+
         }
     }
 }
