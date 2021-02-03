@@ -12,6 +12,10 @@
 ## API URL
    * https://jsonplaceholder.typicode.com/posts
    
+## Output
+![okeup](https://user-images.githubusercontent.com/26364748/106765072-6dcc5a00-665e-11eb-95ba-a29803bd0936.PNG)
+
+   
 ## File Structure
 ![file structure](https://user-images.githubusercontent.com/26364748/106731764-e965e100-6635-11eb-88fe-aa1873c0ab2d.PNG)
 
