@@ -1,6 +1,7 @@
 # Android-MVVM-Architecture-Java
 
-![mvvm](https://user-images.githubusercontent.com/26364748/106730635-98a1b880-6634-11eb-86f5-c9430d5256a4.png)
+![mvvm](https://user-images.githubusercontent.com/26364748/106845373-d3f1c500-66d0-11eb-8b41-acdb675d9309.png)
+
 
 ## Used Deependencies
     * implementation 'com.squareup.retrofit2:retrofit:2.9.0'
